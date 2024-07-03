@@ -5,7 +5,6 @@ plugins {
     id("androidx.navigation.safeargs")
     id("com.google.devtools.ksp")
 }
-//tes
 
 android {
     namespace = "com.example.animevault"

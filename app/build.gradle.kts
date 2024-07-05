@@ -125,8 +125,8 @@ dependencies {
 
     implementation(libs.androidx.work.runtime.ktx)
 
-    implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
-    implementation("com.google.firebase:firebase-analytics")
-    implementation("com.google.firebase:firebase-crashlytics")
+    implementation(libs.firebase.bom)
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.crashlytics)
 
 }

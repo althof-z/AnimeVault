@@ -3,6 +3,7 @@ agp = "8.3.1"
 coreTesting = "2.2.0"
 datastorePreferences = "1.1.1"
 filepicker = "0.2.5"
+firebaseBom = "33.1.1"
 junitJunit = "4.12"
 koinBom = "3.5.6"
 kotlin = "1.9.23"
@@ -44,6 +45,9 @@ androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRunt
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "workRuntimeKtx" }
 filepicker = { module = "io.github.chochanaresh:filepicker", version.ref = "filepicker" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

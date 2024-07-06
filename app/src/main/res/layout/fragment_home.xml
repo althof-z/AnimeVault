@@ -142,7 +142,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_anime_home"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:scrollbars="horizontal"
@@ -150,5 +150,17 @@
         app:layout_constraintTop_toBottomOf="@+id/materialTextView"
         tools:layout_editor_absoluteX="6dp"
         tools:listitem="@layout/item_anime_home" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_crash"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/galanogroresque_altsemibold"
+        android:text="Crash the App"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_anime_home" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

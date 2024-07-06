@@ -7,15 +7,21 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.animevault.R
 import com.example.animevault.databinding.ActivityMainBinding
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.analytics.ktx.analytics
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity()  {
 
     private val viewBinding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private lateinit var firebaseAnalytics: FirebaseAnalytics
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(viewBinding.root)
         setupNavigationComponentWithAppBar()
+
+        firebaseAnalytics = Firebase.analytics
     }
 
     private fun setupNavigationComponentWithAppBar() {

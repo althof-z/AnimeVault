@@ -68,10 +68,6 @@ class HomeFragment : Fragment(), AnimeAdapterListener {
             Toast.makeText(context, error.message, Toast.LENGTH_SHORT).show()
         }
 
-        binding.btnSeeAll.setOnClickListener {
-            setFragment(AnimeFragment())
-        }
-
         setupAnimeRV()
 
         viewModel.retrieveAvailableAnimes()
@@ -86,6 +82,13 @@ class HomeFragment : Fragment(), AnimeAdapterListener {
                 binding.ivHighlightAnime.load("https://wallpapers.com/images/hd/fullmetal-alchemist-brotherhood-action-poster-0tvvnvos36llm4yx.webp")
                 binding.progressBar.visibility = View.GONE
             }
+        }
+
+        binding.btnSeeAll.setOnClickListener {
+            setFragment(AnimeFragment())
+        }
+        binding.btnCrash.setOnClickListener{
+            triggerCrash()
         }
     }
 
@@ -103,6 +106,10 @@ class HomeFragment : Fragment(), AnimeAdapterListener {
     }
 
     override fun onClickFavButton(data: Anime) {
+    }
+
+    private fun triggerCrash() {
+        throw RuntimeException("test crashlytics")
     }
 
 }

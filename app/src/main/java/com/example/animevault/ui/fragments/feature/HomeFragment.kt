@@ -1,4 +1,4 @@
-package com.example.animevault.ui.fragments
+package com.example.animevault.ui.fragments.feature
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,10 +19,10 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.animevault.R
 import com.example.animevault.databinding.FragmentHomeBinding
-import com.example.animevault.ui.fragments.adapter.AnimeAdapterListener
-import com.example.animevault.ui.fragments.adapter.AnimeHomeAdapter
+import com.example.animevault.ui.fragments.auth.AuthFragment
+import com.example.animevault.ui.adapter.AnimeAdapterListener
+import com.example.animevault.ui.adapter.AnimeHomeAdapter
 import com.example.domain.model.Anime
-import com.example.domain.model.AnimeHome
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class HomeFragment : Fragment(), AnimeAdapterListener {

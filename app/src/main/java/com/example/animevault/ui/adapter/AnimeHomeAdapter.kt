@@ -1,10 +1,10 @@
-package com.example.animevault.ui.fragments.adapter
+package com.example.animevault.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import com.example.animevault.databinding.ItemAnimeHomeBinding
-import com.example.animevault.ui.fragments.viewholder.AnimeHomeViewHolder
+import com.example.animevault.ui.viewholder.AnimeHomeViewHolder
 import com.example.domain.model.AnimeHome
 
 class AnimeHomeAdapter(private val animeAdapterListener: AnimeAdapterListener)

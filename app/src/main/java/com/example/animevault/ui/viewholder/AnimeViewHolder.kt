@@ -1,9 +1,9 @@
-package com.example.animevault.ui.fragments.viewholder
+package com.example.animevault.ui.viewholder
 
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.animevault.databinding.ItemAnimeNewBinding
-import com.example.animevault.ui.fragments.adapter.AnimeAdapterListener
+import com.example.animevault.ui.adapter.AnimeAdapterListener
 import com.example.domain.model.Anime
 import com.example.domain.model.AnimeHome
 

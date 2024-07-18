@@ -3,6 +3,7 @@ package com.example.animevault.ui.fragments
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
 import com.example.animevault.MainDispatcherRule
+import com.example.animevault.ui.fragments.auth.LoginViewModel
 import com.example.domain.usecases.LoginUsesCase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest

@@ -1,4 +1,4 @@
-package com.example.animevault.ui.fragments
+package com.example.animevault.ui.fragments.auth
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

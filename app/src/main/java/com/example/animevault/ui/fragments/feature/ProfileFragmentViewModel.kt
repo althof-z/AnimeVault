@@ -1,4 +1,4 @@
-package com.example.animevault.ui.fragments
+package com.example.animevault.ui.fragments.feature
 
 import android.app.Application
 import android.content.ContentResolver
@@ -14,7 +14,7 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import com.example.animevault.R
-import com.example.animevault.ui.fragments.ProfileFragment.Companion.KEY_IMAGE_URI
+import com.example.animevault.ui.fragments.feature.ProfileFragment.Companion.KEY_IMAGE_URI
 import com.example.animevault.worker.BlurWorker
 import com.example.animevault.worker.CleanupWorker
 import com.example.animevault.worker.SaveImageToFileWorker

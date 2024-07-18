@@ -1,4 +1,4 @@
-package com.example.animevault.ui.fragments.adapter
+package com.example.animevault.ui.adapter
 
 import androidx.recyclerview.widget.DiffUtil
 import com.example.domain.model.AnimeHome

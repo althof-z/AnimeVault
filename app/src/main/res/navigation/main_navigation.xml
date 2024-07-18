@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.example.animevault.ui.fragments.FirstFragment"
+        android:name="com.example.animevault.ui.fragments.auth.FirstFragment"
         android:label="AnimeVault"
         tools:layout="@layout/fragment_first">
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/animeFragment"
-        android:name="com.example.animevault.ui.fragments.AnimeFragment"
+        android:name="com.example.animevault.ui.fragments.feature.AnimeFragment"
         android:label="Best Animes "
         tools:layout="@layout/fragment_anime" >
         <action
@@ -39,7 +39,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.animevault.ui.fragments.LoginFragment"
+        android:name="com.example.animevault.ui.fragments.auth.LoginFragment"
         android:label="Log In"
         tools:layout="@layout/fragment_login" >
         <action
@@ -51,7 +51,7 @@
     </fragment>
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.example.animevault.ui.fragments.FavoriteFragment"
+        android:name="com.example.animevault.ui.fragments.feature.FavoriteFragment"
         android:label="Favorites"
         tools:layout="@layout/fragment_favorite" >
         <action
@@ -66,12 +66,12 @@
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.animevault.ui.fragments.ProfileFragment"
+        android:name="com.example.animevault.ui.fragments.feature.ProfileFragment"
         android:label="User Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/authFragment"
-        android:name="com.example.animevault.ui.fragments.AuthFragment"
+        android:name="com.example.animevault.ui.fragments.auth.AuthFragment"
         android:label="AnimeVault"
         tools:layout="@layout/fragment_auth" >
         <action
@@ -80,7 +80,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.animevault.ui.fragments.HomeFragment"
+        android:name="com.example.animevault.ui.fragments.feature.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
 

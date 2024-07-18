@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="6dp"
     android:paddingRight="6dp"
-    tools:context=".ui.fragments.HomeFragment">
+    tools:context=".ui.fragments.feature.HomeFragment">
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
         android:id="@+id/progress_bar"

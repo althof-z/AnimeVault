@@ -1,4 +1,4 @@
-package com.example.animevault.ui.fragments
+package com.example.animevault.ui.fragments.auth
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import com.example.animevault.R
 import com.example.animevault.databinding.FragmentAuthBinding
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.animevault.ui.fragments.feature.AnimeFragment
+import com.example.animevault.ui.fragments.feature.FavoriteFragment
+import com.example.animevault.ui.fragments.feature.SharedViewModel
+import com.example.animevault.ui.fragments.feature.HomeFragment
 
 class AuthFragment : Fragment() {
     private var _binding: FragmentAuthBinding? = null

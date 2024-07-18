@@ -1,7 +1,5 @@
-package com.example.animevault.ui.fragments
+package com.example.animevault.ui.fragments.feature
 
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -21,12 +19,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.animevault.R
 import com.example.animevault.databinding.FragmentAnimeBinding
-import com.example.animevault.ui.fragments.adapter.AnimeAdapter
-import com.example.animevault.ui.fragments.adapter.AnimeHomeAdapter
-import com.example.animevault.ui.fragments.adapter.AnimeAdapterListener
-import com.example.animevault.ui.fragments.viewholder.FragmentType
+import com.example.animevault.ui.adapter.AnimeAdapter
+import com.example.animevault.ui.adapter.AnimeAdapterListener
+import com.example.animevault.ui.fragments.auth.AuthFragment
+import com.example.animevault.ui.viewholder.FragmentType
 import com.example.domain.model.Anime
-import com.example.domain.model.AnimeHome
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class AnimeFragment : Fragment(), AnimeAdapterListener {

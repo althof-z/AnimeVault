@@ -3,6 +3,7 @@ package com.example.animevault.ui.fragments
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
 import com.example.animevault.MainDispatcherRule
+import com.example.animevault.ui.fragments.feature.HomeFragmentViewModel
 import com.example.domain.model.AnimeHome
 import com.example.domain.repository.AnimeRepository
 import com.example.domain.repository.AuthRepository

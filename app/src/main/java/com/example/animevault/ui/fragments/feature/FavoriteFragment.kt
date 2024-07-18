@@ -1,4 +1,4 @@
-package com.example.animevault.ui.fragments
+package com.example.animevault.ui.fragments.feature
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,9 +19,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.animevault.R
 import com.example.animevault.databinding.FragmentFavoriteBinding
-import com.example.animevault.ui.fragments.adapter.AnimeAdapter
-import com.example.animevault.ui.fragments.adapter.AnimeAdapterListener
-import com.example.animevault.ui.fragments.viewholder.FragmentType
+import com.example.animevault.ui.adapter.AnimeAdapter
+import com.example.animevault.ui.adapter.AnimeAdapterListener
+import com.example.animevault.ui.viewholder.FragmentType
 import com.example.domain.model.Anime
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

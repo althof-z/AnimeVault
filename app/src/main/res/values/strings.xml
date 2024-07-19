@@ -19,4 +19,12 @@
     <string name="profile_pic">Profile Pic</string>
     <string name="add_image">Change Picture</string>
     <string name="reg">Register</string>
+    <string name="your_favorite_anime">Your Favorite Anime</string>
+    <string name="name">Name</string>
+    <string name="profile_logo">Profile_logo</string>
+    <string name="edit_pic">edit_pic</string>
+    <string name="welcome">Welcome,</string>
+    <string name="user">Althof</string>
+    <string name="see_all">See All</string>
+    <string name="crash_app">Crash the App</string>
 </resources>

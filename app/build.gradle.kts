@@ -128,5 +128,8 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-crashlytics")
+    
+    implementation("com.github.akndmr:AirySnackbar:1.0.1")
+    implementation("androidx.core:core-splashscreen:1.0.0")
 
 }

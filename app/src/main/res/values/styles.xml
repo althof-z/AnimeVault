@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+        <style name="Theme.AnimeVault.Splash.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Set the background color for the splash screen -->
+            <item name="android:windowBackground">@color/my_primary_color</item>
+        </style>
+
+
     <style name="TitleText" parent="Widget.MaterialComponents.TextView">
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">25sp</item>
